@@ -23,7 +23,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(),
-        body: Center(
+        body: const Center(
           child: Text('Hello World'),
         ),
       floatingActionButton: FloatingActionButton(

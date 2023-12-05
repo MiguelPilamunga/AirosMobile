@@ -4,12 +4,17 @@ import 'package:airosmobile/core/router/approute.dart';
 import 'package:airosmobile/core/theme/xcore.dart';
 import 'package:airosmobile/data/logic/logs/AppBlocObserver.dart';
 import 'package:airosmobile/data/service/xcore.dart';
+import 'package:airosmobile/firebase_options.dart';
 import 'package:airosmobile/view/home/home.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await setupLocator();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   Bloc.observer = AppBlocObserver();
 
   runApp(MultiBlocProvider(

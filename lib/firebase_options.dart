@@ -44,37 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBFAKS7FDfDK0eWhVeYiq4MCnowC9GEv-g',
-    appId: '1:522016338025:web:d715e709b4bd5d5e9bf2f8',
-    messagingSenderId: '522016338025',
-    projectId: 'airosstorange',
-    authDomain: 'airosstorange.firebaseapp.com',
-    storageBucket: 'airosstorange.appspot.com',
+    apiKey: 'AIzaSyCn2EFK_1aQeS5mfMA87cPv3ORypnTlZzE',
+    appId: '1:852761072597:web:94a8adf7348475436f235c',
+    messagingSenderId: '852761072597',
+    projectId: 'testairos',
+    authDomain: 'testairos.firebaseapp.com',
+    storageBucket: 'testairos.appspot.com',
+    measurementId: 'G-6GX3XM4L9Q',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD3BHvHX_eIwSKIHbzeSro-E_cuwEf2wGw',
-    appId: '1:522016338025:android:fe3125135f3795829bf2f8',
-    messagingSenderId: '522016338025',
-    projectId: 'airosstorange',
-    storageBucket: 'airosstorange.appspot.com',
+    apiKey: 'AIzaSyCUnbuMK4U-WybgURfifDuZMoT9Ba6p2Kg',
+    appId: '1:852761072597:android:809ffc793b0c11716f235c',
+    messagingSenderId: '852761072597',
+    projectId: 'testairos',
+    storageBucket: 'testairos.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyADDny6DN236OOLBqn6-gVpwRlrApg8pxE',
-    appId: '1:522016338025:ios:653460c6e9cda3509bf2f8',
-    messagingSenderId: '522016338025',
-    projectId: 'airosstorange',
-    storageBucket: 'airosstorange.appspot.com',
+    apiKey: 'AIzaSyDbGqn_QfvyHZPVuAfFzOZPvAepNlF81LA',
+    appId: '1:852761072597:ios:7f1b7b29cd0410546f235c',
+    messagingSenderId: '852761072597',
+    projectId: 'testairos',
+    storageBucket: 'testairos.appspot.com',
     iosBundleId: 'labsoft.airosmobile',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyADDny6DN236OOLBqn6-gVpwRlrApg8pxE',
-    appId: '1:522016338025:ios:4eb2de0aca9a33309bf2f8',
-    messagingSenderId: '522016338025',
-    projectId: 'airosstorange',
-    storageBucket: 'airosstorange.appspot.com',
+    apiKey: 'AIzaSyDbGqn_QfvyHZPVuAfFzOZPvAepNlF81LA',
+    appId: '1:852761072597:ios:6b286c0735f276496f235c',
+    messagingSenderId: '852761072597',
+    projectId: 'testairos',
+    storageBucket: 'testairos.appspot.com',
     iosBundleId: 'labsoft.airosmobile.RunnerTests',
   );
 }
